@@ -1,3 +1,25 @@
-remote_theme: academicpages/academicpages.github.io
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
 plugins:
-  - jekyll-remote-theme
+  - jekyll-include-cache
+
+title: "Shepard Inpainting Blog"
+name: "Rahul Mohideen"
+description: "A minimal home page with Minimal Mistakes"
+url: "https://rahul4596.github.io/ShepardInpainting/"
+baseurl: "" # leave blank for user/organization site
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
+# Minimal Mistakes settings
+minimal_mistakes_skin: "dark"  # can be "air", "aqua", "dirt", "dark", etc.
+
+
+# Navigation
+nav:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+
+# MathJax
+mathjax: true
